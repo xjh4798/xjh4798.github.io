@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2022/06/12/hello-world/"/>
+    <url>/2022/06/12/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>maven基础</title>
+    <link href="/2022/04/28/mysql/"/>
+    <url>/2022/04/28/mysql/</url>
+    
+    <content type="html"><![CDATA[<h1 id="一、下载与安装"><a href="#一、下载与安装" class="headerlink" title="一、下载与安装"></a>一、下载与安装</h1><p>官网：<a href="http://maven.apache.org/">http://maven.apache.org/</a></p><p>配置环境：MAVEN_HOME </p><h1 id="二、基础概念"><a href="#二、基础概念" class="headerlink" title="二、基础概念"></a>二、基础概念</h1><h2 id="仓库"><a href="#仓库" class="headerlink" title="仓库"></a>仓库</h2><p>仓库:用于存储资源，包含各种jar包</p><p>仓库分类:</p><p>​本地仓库:自己电脑上存储资源的仓库，连接远程仓库获取资源</p><p>​远程仓库:非本机电脑上的仓库，为本地仓库提供资源</p><p>​中央仓库:Maven团队维护，存储所有资源的仓库</p><p>​私服:部门&#x2F;公司范围内存储资源的仓库，从中央仓库获取资源</p><p>​私服的作用:保存具有版权的资源，包含购买或自主研发的jar</p><p>中央仓库中的jar都是开源的，不能存储具有版权的资源一定范围内共享资源，仅对内部开放，不对外共享</p><h2 id="坐标"><a href="#坐标" class="headerlink" title="坐标"></a>坐标</h2><p>什么是坐标?</p><p>​Maven中的坐标用于描述仓库中资源的位置<a href="https://repo1.maven.org/maven2/">https://repo1.maven.org/maven2/</a></p><p>Maven坐标主要组成</p><p>​groupld:定义当前Maven项目隶属组织名称(通常是域名反写，例如:org.mybatis)</p><p>​artifactld:定义当前Maven项目名称(通常是模块名称，例如CRM、SMS)</p><p>​version:定义当前项目版本号</p><p>​packaging:定义该项目的打包方式Maven坐标的作用<br>使用唯一标识，唯一性定位资源位置，通过该标识可以将资源的识别与下载工作交由机器完成</p><p><strong><code>查询相关jar包坐标的网站： https://mvnrepository.com/</code></strong></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>note</category>
+      
+      <category>java</category>
+      
+      <category>maven</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>编程相关</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
